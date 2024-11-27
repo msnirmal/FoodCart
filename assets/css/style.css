@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -6,3 +12,15 @@ header {
     height: 100px;
     padding: 20px;
 }
+
+header a {
+    text-decoration: none;
+}
+
+.logo {
+    background: url(../images/logo_pic.JPG) no-repeat;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+}   
