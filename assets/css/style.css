@@ -11,7 +11,7 @@ header {
     height: 140px;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: rgba(234, 218, 218, 0.8)
+    background-color: rgba(211, 160, 160, 0.8)
 }
 
 header a {
@@ -40,5 +40,16 @@ nav {
     width: 40%;
     justify-content: space-around;
     align-items: center;
+}
+
+nav a {
+    font-size: 24px;
+    color: black;
+    text-shadow: 1px 1px rgb(190, 84, 3);
+}
+
+nav a:hover {
+    transform: scale(1.3s);
+    color: whitesmoke
 }
 
